@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="d-flex justify-content-center m-4">
+      <div class="">
+        <div>
+          <%= @question %>
+          <p>––You</p>
+        </div>
+
+        <div class="bg-warning bg-opacity-50">
+          <%= @answer %>
+          <p>––Your Coach</p>
+        </div>
+
+        <div>
+          <%= link_to "Ask again", ask_path, style:"text-decoration:none"%>
+        </div>
+      </div>
+  </div>
+</div>
